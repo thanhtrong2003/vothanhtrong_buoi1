@@ -45,6 +45,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(338, 23);
             textBox1.TabIndex = 0;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -63,6 +64,7 @@
             button1.TabIndex = 2;
             button1.Text = "Cộng";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -72,6 +74,7 @@
             button2.TabIndex = 3;
             button2.Text = "Nhân";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label2
             // 
@@ -99,6 +102,7 @@
             button3.TabIndex = 6;
             button3.Text = "Thoát";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // textBox2
             // 
@@ -106,6 +110,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(338, 23);
             textBox2.TabIndex = 7;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -113,6 +118,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(338, 23);
             textBox3.TabIndex = 8;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // Form2
             // 

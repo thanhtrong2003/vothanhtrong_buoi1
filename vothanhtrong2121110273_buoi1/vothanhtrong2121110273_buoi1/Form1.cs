@@ -9,7 +9,8 @@ namespace vothanhtrong2121110273_buoi1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Text = "Artical for Button";
+            this.Size = new Size(500, 500);
         }
     }
 }
